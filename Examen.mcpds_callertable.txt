@@ -1,0 +1,11 @@
+main
+	configuracion_incial
+		SPI1_Init
+	ADC1_Read
+		ADC1_Init
+		ADC1_Get_Sample
+	DAC_Output
+		SPI1_Write
+			SPI1_Read
+	_Long2Float
+	_Float2Longint
